@@ -2,13 +2,13 @@
   "name": "react-node-template",
   "version": "1.0.0",
   "description": "",
-  "main": "src/server/index.js",
+  "main": "index.js",
   "scripts": {
     "build": "webpack --config webpack.prod.js",
     "clean": "rimraf dist",
     "lint": "eslint src",
-    "start": "cross-env NODE_ENV=development node ./src/server/index.js",
-    "start:prod": "cross-env NODE_ENV=production node ./src/server/index.js",
+    "dev": "cross-env NODE_ENV=development node ./index.js",
+    "start": "yarn build && node ./index.js",
     "test": "jest"
   },
   "repository": {
@@ -31,9 +31,7 @@
     "react-redux": "^5.0.7",
     "react-router-dom": "^4.3.1",
     "redux": "^4.0.0",
-    "redux-devtools-extension": "^2.13.5"
-  },
-  "devDependencies": {
+    "redux-devtools-extension": "^2.13.5",
     "@babel/core": "^7.0.0-beta.54",
     "@babel/plugin-proposal-class-properties": "^7.0.0-beta.54",
     "@babel/plugin-proposal-object-rest-spread": "^7.0.0-beta.54",

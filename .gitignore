@@ -8,3 +8,4 @@ lib
 .idea
 coverage
 es
+.env

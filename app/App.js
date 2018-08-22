@@ -20,4 +20,4 @@ const App = () =>
     </Provider>
   </Router>
 
-export const Root = hot(module)(() => <App/>)
+export const Root = hot(module)(App)
