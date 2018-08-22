@@ -19,7 +19,7 @@ app.set('port', process.env.PORT || DEFAULT_PORT)
 
 if (isDev || !existsSync(DIST_DIR)) {
   const compiler = webpack(config)
-  app.use(compiler)
+  app.use(hmr(compiler))
   app
     .use(webpackDevMiddleware(compiler, {
       noInfo: true,
