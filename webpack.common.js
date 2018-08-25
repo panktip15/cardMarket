@@ -7,7 +7,7 @@ module.exports = {
   entry: {
     app: [
       'webpack-hot-middleware/client',
-      './src/app/index.js'
+      './app/index.js'
     ]
   },
   module: {
@@ -29,9 +29,9 @@ module.exports = {
   },
   plugins: [
     new CleanWebpackPlugin(['dist']),
-    new HtmlWebpackPlugin({title: 'react-node-template', template: './src/app/index.html'}),
+    new HtmlWebpackPlugin({title: 'cardTrader', template: './app/index.html'}),
     new FaviconsWebpackPlugin({
-      logo: './src/app/static/favicon.png',
+      logo: './app/static/favicon.png',
       prefix: 'icons-[hash]/',
       emitStats: false,
       statsFilename: 'iconstats-[hash].json',
