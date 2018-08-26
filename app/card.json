@@ -1,0 +1,27 @@
+[
+  {
+   "name":"Congregate",
+   "imageUrl":"https://img.scryfall.com/cards/large/en/m15/6.jpg?1517813031",
+   "description":"Target player gains 2 life for each creature on the battlefield."
+  },
+  {
+    "name":"Zealous Persecution",
+    "imageUrl":"https://img.scryfall.com/cards/large/en/ddk/23.jpg?1517813031",
+    "description":"Until end of turn, creatures you control get +1/+1 and creatures your opponents control get -1/-1."
+   },
+   {
+    "name":"Grown from the Stump",
+    "imageUrl":"https://img.scryfall.com/cards/large/en/tfth/8.jpg?1517813031",
+    "description":"Place exactly two cards named Hydra Head onto the battlefield from the Hydra’s graveyard. If you can’t, reveal cards from the top of the Hydra’s library until you reveal a Head card. Put that card onto the battlefield and the rest into the Hydra’s graveyard."
+   },
+   {
+    "name":"Numbing Jellyfish",
+    "imageUrl":"https://img.scryfall.com/cards/large/en/ust/42.jpg?1522206153",
+    "description":"When this creature enters the battlefield, roll a six-sided die. Target player puts the top X cards of their library into their graveyard, where X is the result."
+   },
+   {
+    "name":"Charnelhoard Wurm",
+    "imageUrl":"https://img.scryfall.com/cards/large/en/c18/171.jpg?1532704137",
+    "description":"Trample Whenever Charnelhoard Wurm deals damage to an opponent, you may return target card from your graveyard to your hand."
+   }
+]
